@@ -9,14 +9,17 @@ class Config
     const SITE_ADMIN = 'pavan chowdary';
     const SERVER_MAIL = 'info@nirmaan.org';
 
-     const BASE_URL = 'http://localhost/infy_lms/api/';
-    // const BASE_URL = 'https://shiksha.nirmaan.org/api/';
+    //  const BASE_URL = 'http://localhost/infy_lms/api/';
+     const BASE_URL = 'https://shiksha-staging.nirmaan.org/api/';
     // const CORS_DOMAINS = array('localhost:3000');
 
-    const DB_NAME = "infy_women_empowerment1";
-    const DB_PASS = "";
+    // const DB_NAME = "infy_women_empowerment1";
+    // const DB_PASS = "";
+    // const DB_USER = "root";
+    const DB_NAME = "shik_lms";
+    const DB_PASS = "L8FpnxH5i5Jv+KJn";
     const DB_HOST = "localhost";
-    const DB_USER = "root";
+    const DB_USER = "shik_parag.patil@nirmaan.org";
 
     //const SMTP_MAIL = "srilatha.kaveti@nirmaan.org";
     const SMTP_MAIL = "shiksha@nirmaan.org";

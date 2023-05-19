@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
                 authorizeEndpoint: 'https://nirmaan-wep.azurewebsites.net/auth/realms/Springboard/protocol/openid-connect/auth',
                 tokenEndpoint: 'https://nirmaan-wep.azurewebsites.net/auth/realms/Springboard/protocol/openid-connect/token',
                 logoutEndpoint: 'https://nirmaan-wep.azurewebsites.net/auth/realms/Springboard/protocol/openid-connect/logout',
-                redirectUri: 'http://localhost:3000/',
+                 redirectUri: 'http://shiksha-staging.nirmaan.org/',
                 scopes: ['openid'],
             })
         );

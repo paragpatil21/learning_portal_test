@@ -410,7 +410,7 @@ const token = authService.getAuthTokens();
                           <a
                             className={
                               classNames(
-                                props.activePage === "Courses"
+                                props.activePage === "aboutus"
                                   ? "text-nirmaan "
                                   : "text-gray-700 "
                               ) +
@@ -434,7 +434,7 @@ const token = authService.getAuthTokens();
                             }
                             aria-current="page"
                           >
-                            Courses
+                            Topics
                           </a>
                         </Link>
 

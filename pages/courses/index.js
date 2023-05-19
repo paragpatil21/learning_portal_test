@@ -322,7 +322,7 @@ setLocalFonts("35px","15px");
 
       <Header activePage="Courses"/>
       <div>
-        <section className="md:h-screen px-4 md:px-0 bg-indigo-100 pt-36" id="mydiv1">
+        <section className=" px-4 md:px-0 bg-indigo-100 pt-36" id="mydiv1">
           <div className="container max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold tracking-tight text-center heading1">Courses</h2>
             {/* <p className="mt-2 text-lg text-center text-gray-600">Select prefered course level below.</p> */}
@@ -368,6 +368,16 @@ setLocalFonts("35px","15px");
                 <h4 className="text-xl font-medium text-gray-700 text1">python course springboard</h4>
                 <p className="text-base text-center text-gray-500">Lets get started with python.</p>
                   <Link href="https://infyspringboard.staging.onwingspan.com/web/en/app/toc/lex_auth_012656828282331136258_shared/overview">
+                    <a className="cursor-pointer flex justify-center items-center bg-blue-500 text-white font-bold py-2 px-4 rounded-full duration-150 hover:scale-105 transform hover:shadow-2xl">Start Course</a>
+                  </Link>
+              </div>
+              <div className="relative flex flex-col items-center justify-between col-span-6 px-8 py-12 space-y-4 bg-gray-100 rounded-xl">
+                <div className="p-3 text-white bg-blue-500 rounded-full">
+                  <UserGroupIcon className="h-6 w-6 text-white" />
+                </div>
+                <h4 className="text-xl font-medium text-gray-700 text1">wordpress for web developement</h4>
+                <p className="text-base text-center text-gray-500">Lets get started with wordpress on springboard</p>
+                  <Link href="https://infyspringboard.staging.onwingspan.com/web/en/app/toc/lex_auth_0130944442153615362804_shared/overview">
                     <a className="cursor-pointer flex justify-center items-center bg-blue-500 text-white font-bold py-2 px-4 rounded-full duration-150 hover:scale-105 transform hover:shadow-2xl">Start Course</a>
                   </Link>
               </div>
